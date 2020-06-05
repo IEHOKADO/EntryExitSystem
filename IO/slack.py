@@ -2,8 +2,7 @@
 
 import slackweb
 
-#slack=slackweb.Slack(url="https://hooks.slack.com/services/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") #20入退室
-slack = slackweb.Slack(url="https://hooks.slack.com/services/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") # test-ap(debug)
+slack = channel_url
 
 def send_message_0(color,nickname,status,num): #複数行送信
     try:
