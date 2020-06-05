@@ -1,0 +1,25 @@
+@charset "utf-8";
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    background-color: lightseagreen;
+    font-family: 'Arial', sans-serif;
+}
+
+.result {
+    color: white;
+    font-size: 80px;
+    font-weight: 600;
+    margin: 100px;
+}
+
+.message {
+    color: white;
+    font-size: 50px;
+}
